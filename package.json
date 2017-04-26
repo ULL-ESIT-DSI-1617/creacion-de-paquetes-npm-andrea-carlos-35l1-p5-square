@@ -9,8 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mocha": "^3.3.0",
-    "@ull-andrea-carlos/ull-andrea-carlos-shape": "^1.0.0",
-    "should": "^11.2.1"
+  "mocha": "^3.3.0",
+  "@ull-andrea-carlos/ull-andrea-carlos-shape": "^1.0.0",
+  "should": "^11.2.1"
   }
 }
