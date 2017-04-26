@@ -1,16 +1,18 @@
 {
   "name": "@ull-andrea-carlos/ull-andrea-carlos-square",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha --require should"
+    "test": "./node_modules/mocha/bin/mocha --require should",
+    "doc": "documentation build ./lib/shape.js -f html -o docs"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-  "mocha": "^3.3.0",
-  "@ull-andrea-carlos/ull-andrea-carlos-shape": "^1.0.0",
-  "should": "^11.2.1"
+    "@ull-andrea-carlos/ull-andrea-carlos-shape": "^1.0.0",
+    "documentation": "^4.0.0-rc.0",
+    "mocha": "^3.3.0",
+    "should": "^11.2.1"
   }
 }
